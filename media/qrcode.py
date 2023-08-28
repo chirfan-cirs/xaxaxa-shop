@@ -1,8 +1,8 @@
 import pyqrcode
 from pyqrcode import QRCode
 
-s = "https://drive.google.com/file/d/1XKR4P5Jk6z6_fw5XDXbr_-Lz7pybm-o7/view?usp=sharing"
+s = "https://xaxaxafam.wordpress.com/"
 
 qr = pyqrcode.create(s)
 
-qr.png("mymenu.png", scale=8)
+qr.png("myweb.png", scale=8)

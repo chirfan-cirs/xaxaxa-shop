@@ -1,7 +1,7 @@
 import pyqrcode
 from pyqrcode import QRCode
 
-s = "https://xaxaxafam.wordpress.com/"
+s = "https://cvprospectprint.wordpress.com"
 qr = pyqrcode.create(s)
 
-qr.png("myweb.png", scale=8)
+qr.png("CvProspectPrint.png", scale=8)

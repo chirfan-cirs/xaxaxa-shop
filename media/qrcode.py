@@ -1,7 +1,7 @@
 import pyqrcode
 from pyqrcode import QRCode
 
-s = "https://cvprospectprint.wordpress.com"
-qr = pyqrcode.create(s)
+link = input("Insert the link : ")
+qr = pyqrcode.create(link)
 
-qr.png("CvProspectPrint.png", scale=8)
+qr.png("link.png", scale=8)
